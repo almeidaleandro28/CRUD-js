@@ -1,0 +1,14 @@
+{
+  "client": [
+    {
+      "nome": "felipe",
+      "email": "felipe@hotmail.com",
+      "id": 1
+    },
+    {
+      "nome": "leandro",
+      "email": "leandro@gmal.com",
+      "id": 1
+    }
+  ]
+}
