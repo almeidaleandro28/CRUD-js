@@ -9,6 +9,11 @@
       "nome": "leandro",
       "email": "leandro@gmal.com",
       "id": 2
+    },
+    {
+      "nome": "tais",
+      "email": "tais@gmail.com",
+      "id": 3
     }
   ]
 }
