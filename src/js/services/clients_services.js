@@ -22,10 +22,27 @@ async function addClient( name, email) {
 	const response = await fetch(url, options);
 
 	return response.body;
-
 }
+
+// delete client
+// async function removeClient( id ){
+//   let url = `http://localhost:3000/client/${id}`;
+
+// 	const options = {
+// 		method: "DELETE",
+// 		headers: {
+// 			'Content-Type': 'application/json'
+// 		},
+// 		body: null
+// 	};
+
+// 	const response = await fetch(url, options);
+
+// 	console( response)
+// }
 
 export {
   getClients,
-	addClient
+	addClient,
+	// removeClient
 }
