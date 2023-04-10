@@ -25,24 +25,41 @@ async function addClient( name, email) {
 }
 
 // delete client
-// async function removeClient( id ){
-//   let url = `http://localhost:3000/client/${id}`;
+async function removeClient( id ){
+  let url = `http://localhost:3000/client/${id}`;
 
-// 	const options = {
-// 		method: "DELETE",
-// 		headers: {
-// 			'Content-Type': 'application/json'
-// 		},
-// 		body: null
-// 	};
+	const options = {
+		method: "DELETE",
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: null
+	};
 
-// 	const response = await fetch(url, options);
+	const response = await fetch(url, options);
 
-// 	console( response)
-// }
+	return response;
+}
+
+// edit client
+async function editClient( id, nome, email ){
+	let url = `http://localhost:3000/client/${id}`;
+
+	const options = {
+		method: "PUT",
+		headers: {
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify({id, nome, email})
+	};
+
+	return await fetch( url, options );
+
+}
 
 export {
   getClients,
 	addClient,
-	// removeClient
+	removeClient,
+	editClient
 }

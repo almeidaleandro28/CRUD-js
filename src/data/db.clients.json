@@ -1,19 +1,9 @@
 {
   "client": [
     {
-      "nome": "felipe",
-      "email": "felipe@hotmail.com",
+      "nome": "leandro almeida da silva",
+      "email": "leandro@gmail.com",
       "id": 1
-    },
-    {
-      "nome": "leandro",
-      "email": "leandro@gmal.com",
-      "id": 2
-    },
-    {
-      "nome": "tais",
-      "email": "tais@hotmail.com",
-      "id": 3
     }
   ]
 }
