@@ -68,9 +68,7 @@ async function editClient( id, nome, email ){
 
 export {
   getClients,
-	getClient,
 	addClient,
 	removeClient,
 	editClient
-
 }
