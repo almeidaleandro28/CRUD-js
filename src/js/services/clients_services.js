@@ -7,9 +7,9 @@ async function getClients(){
 }
 
 async function getClient(id){
-  let url = `http://localhost:3000/client/${id}}`;
+  let url = `http://localhost:3000/client/${id}`;
 	
-	const response = await( url, options );
+	const response = await fetch( url);
 
 	return await response.json();
 	
@@ -68,6 +68,7 @@ async function editClient( id, nome, email ){
 
 export {
   getClients,
+	getClient,
 	addClient,
 	removeClient,
 	editClient
