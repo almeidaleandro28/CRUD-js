@@ -9,6 +9,11 @@
       "nome": "leonardo",
       "email": "leonardo@hotmail.com",
       "id": 2
+    },
+    {
+      "nome": "romario",
+      "email": "romario@hotmail.com",
+      "id": 3
     }
   ]
 }
