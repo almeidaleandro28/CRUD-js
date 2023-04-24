@@ -13,3 +13,17 @@ getClient( getId ).then(
           $inputName.value = data.nome
           $inputEmail.value = data.email })
 
+
+const $form = document.querySelector("[data-form]");
+
+$form.addEventListener("submit", ( e ) => {
+  
+  e.preventDefault();
+
+  try {
+    editClient( getId, $inputName.value, $inputEmail.value )
+    console.log("ok")
+  } catch(e) {
+    console.log("erro!", e)
+  }
+});

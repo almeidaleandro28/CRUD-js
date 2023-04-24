@@ -62,8 +62,9 @@ async function editClient( id, nome, email ){
 		body: JSON.stringify({id, nome, email})
 	};
 
-	return await fetch( url, options );
+	const response = await fetch( url, options );
 
+	return response.body;
 }
 
 export {
