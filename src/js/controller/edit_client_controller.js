@@ -21,8 +21,9 @@ $form.addEventListener("submit", ( e ) => {
   e.preventDefault();
 
   try {
-    editClient( getId, $inputName.value, $inputEmail.value )
-    console.log("ok")
+    editClient( getId, $inputName.value, $inputEmail.value );
+    window.location.assign("http://127.0.0.1:5500/src/pages/update-finished.html");
+    
   } catch(e) {
     console.log("erro!", e)
   }
