@@ -17,7 +17,7 @@ table.addEventListener("click", ( e ) => {
   if ( btnEdit ) {
     const linha = e.target.closest("[data-id]");
     const id = linha.dataset.id;
-    window.open( `src/pages/update.html?id=${id}`);
+    window.open( `src/pages/update.html?id=${id}`,"_self");
     console.log(id)
   }
   
