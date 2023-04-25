@@ -6,14 +6,19 @@
       "id": 1
     },
     {
+      "id": 2,
       "nome": "leonardo",
-      "email": "leonardo@hotmail.com",
-      "id": 2
+      "email": "leonardo@gmail.com"
     },
     {
       "id": 3,
       "nome": "romario",
-      "email": "romario@globo.com"
+      "email": "romario@uol.com"
+    },
+    {
+      "id": 4,
+      "nome": "josé",
+      "email": "jose@bol.com"
     }
   ]
 }
